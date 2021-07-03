@@ -127,7 +127,7 @@
             </Style.Triggers>
         </Style>
         <Style TargetType="{x:Type Button}">
-            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontFamily" Value="Impact"/>
             <Setter Property="Margin" Value="7 0"/>
             <Setter Property="Template">
                 <Setter.Value>
@@ -148,7 +148,7 @@
             </Setter>
         </Style>
         <Style x:Key="TimeExpiredLabelStyle" TargetType="{x:Type Label}">
-            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontFamily" Value="Impact"/>
             <Setter Property="Margin" Value="7 0"/>
             <Setter Property="Template">
                 <Setter.Value>
@@ -213,9 +213,9 @@
                 <local:SizeToFitTextBox x:Name="TitleTextBox"
                                         Background="{x:Null}"
                                         BorderBrush="{x:Null}"
-                                        FontFamily="Segoe UI"
+                                        FontFamily="Impact"
                                         KeyDown="TitleTextBoxKeyDown"
-                                        MaxFontSize="12"
+                                        MaxFontSize="24"
                                         MinFontSize="8"
                                         PreviewMouseDown="TitleTextBoxPreviewMouseDown"
                                         PreviewGotKeyboardFocus="TitleTextBoxPreviewGotKeyboardFocus"
@@ -225,9 +225,9 @@
                 <local:SizeToFitTextBox x:Name="TimerTextBox"
                                         Background="{x:Null}"
                                         BorderBrush="{x:Null}"
-                                        FontFamily="Segoe UI Light, Segoe UI"
+                                        FontFamily="Impact"
                                         Margin="0 1 0 4"
-                                        MaxFontSize="18"
+                                        MaxFontSize="36"
                                         MinFontSize="8"
                                         PreviewMouseDown="TimerTextBoxPreviewMouseDown"
                                         PreviewGotKeyboardFocus="TimerTextBoxPreviewGotKeyboardFocus"
